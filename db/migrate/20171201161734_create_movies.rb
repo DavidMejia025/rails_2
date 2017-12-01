@@ -8,8 +8,6 @@ class CreateMovies < ActiveRecord::Migration[5.1]
       t.string :description
       t.string :img_url
 
-
-
       t.timestamps
     end
   end
